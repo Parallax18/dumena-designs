@@ -1,461 +1,622 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="responsive.style.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="responsive.style.css" />
+
     <!-- <link rel="stylesheet" href="./uikit-3.5.6/css/uikit.min.css">
     <link rel="stylesheet" href="./uikit-3.5.6/css/uikit.css"> -->
     <title>adx</title>
-</head>
-<body>
+  </head>
+  <body>
     <main class="container-fluid">
-        <!-- Nav bar -->
-        <nav class="nav-bar row text-center">
-            <ul class="right list-group text-center">
-                <a href="#" class="nav-item logo ">adX</a>
-                <li class="nav-item list-group-item ">
-                    <div class="select-course">
-                       
-                            <span class="span">Courses <i class="fa fa-chevron-down"></i></span>
-                        
-                        <ul class="select-courses-list dropdown-menu list-group">
-                            <li class="select-course-item divider list-group-item">Course One</li>
-                            <li class="select-course-item divider list-group-item">Course One</li>
-                            <li class="select-course-item divider list-group-item">Course One</li>
-                            <li class="select-course-item divider list-group-item">Course One</li>
-                            <li class="select-course-item divider list-group-item">Course One</li>
+      <!-- Nav bar -->
+      <nav class="nav-bar row text-center">
+        <ul class="right list-group text-center">
+          <a href="#" class="nav-item logo">adX</a>
+          <li class="nav-item list-group-item">
+            <div class="select-course">
+              <span class="span"
+                >Courses <i class="fa fa-chevron-down"></i
+              ></span>
 
-                        </ul>
-                    </div>
+              <ul class="select-courses-list dropdown-menu list-group">
+                <li class="select-course-item divider list-group-item">
+                  Course One
                 </li>
-                <li class="nav-item input list-group-item text-center">
-                    <label for="input"> 
-                        <i class="fa fa-search" id="search-icon"></i>
-                    </label>
-                    <input type="text" name="search" id="search-input" placeholder="Search for Courses">
+                <li class="select-course-item divider list-group-item">
+                  Course One
                 </li>
-            </ul>
-            <ul class="left list-group">
-                <a href="#" class="nav-item instructor list-group-item"><i class="fa fa-cart-plus" id="cart-icon"></i>Become an instructor</a>
-                <a href="./login.htm" class="nav-item login list-group-item">Login</a>
-                <a href="./sign.htm" class="nav-item sign-up list-group-item">Sign Up</a>
-            </ul>
-        </nav>
-        <!-- End of nav bar -->
-
-        <!-- Hero section -->
-        <div class="hero-section">
-            <div class="hero-content text-center">
-                <h1 class="lead">
-                    Access 2500+ Online Courses From 140 Institutions. Start Today!
-                </h1>
-                <form action="post" class="form">
-                    <i class="fa fa-search" class="question-icon"></i>
-                    <input type="text" name="" class="question-input" placeholder="What will you learn today?">
-                </form>
-                
+                <li class="select-course-item divider list-group-item">
+                  Course One
+                </li>
+                <li class="select-course-item divider list-group-item">
+                  Course One
+                </li>
+                <li class="select-course-item divider list-group-item">
+                  Course One
+                </li>
+              </ul>
             </div>
-        </div>
-        <!-- End of hero section -->
+          </li>
+          <li class="nav-item input list-group-item text-center">
+            <label for="input">
+              <i class="fa fa-search" id="search-icon"></i>
+            </label>
+            <input
+              type="text"
+              name="search"
+              id="search-input"
+              placeholder="Search for Courses"
+            />
+          </li>
+        </ul>
+        <ul class="left list-group">
+          <a href="#" class="nav-item instructor list-group-item"
+            ><i class="fa fa-cart-plus" id="cart-icon"></i>Become an
+            instructor</a
+          >
+          <a href="./login.htm" class="nav-item login list-group-item">Login</a>
+          <a href="./sign.htm" class="nav-item sign-up list-group-item"
+            >Sign Up</a
+          >
+        </ul>
+      </nav>
+      <!-- End of nav bar -->
 
-    <!-- container -->
-    <div class="my-container">
+      <!-- Hero section -->
+      <div class="hero-section">
+        <div class="hero-content text-center">
+          <h1 class="lead">
+            Access 2500+ Online Courses From 140 Institutions. Start Today!
+          </h1>
+          <form action="post" class="form">
+            <i class="fa fa-search" class="question-icon"></i>
+            <input
+              type="text"
+              name=""
+              class="question-input"
+              placeholder="What will you learn today?"
+            />
+          </form>
+        </div>
+      </div>
+      <!-- End of hero section -->
+
+      <!-- container -->
+      <div class="my-container">
         <!-- Partners section -->
         <div class="container">
-       <section class="partners row">
+          <section class="partners row">
             <h4 class="partner-head col-xs-1">Schools & Partners</h4>
-            <ul class="partner-list col-xs-11 row list-group" data-target="carousel">
-                <li class="partner-left-btn col-xs-1 list-group-item" href="#">
-                    <i class="fa fa-chevron-left"></i>
-                </li>
-                <li class="partner-item col-xs-2 list-group-item">
-                    <i class="fab fa-500px partner-logo"></i>
-                </li>
-                <li class="partner-item col-xs-2 list-group-item">
-                    <i class="fab fa-linux partner-logo"></i>
-                </li>
-                <li class="partner-item col-xs-2 list-group-item">
-                    <i class="fab fa-skyatlas partner-logo"></i>
-                </li>
-                <li class="partner-item col-xs-2 list-group-item">
-                    <i class="fa fa-paper-plane partner-logo"></i>
-                </li>
-                <li class="partner-item col-xs-2 list-group-item">
-                    <i class="fa fa-leaf partner-logo"></i>
-                </li>
-                <li class="partner-right-btn col-xs-1 list-group-item" href="#">
-                    <i class="fa fa-chevron-right"></i>
-                </li>
-                
+            <ul
+              class="partner-list col-xs-11 row list-group"
+              data-target="carousel"
+            >
+              <li class="partner-left-btn col-xs-1 list-group-item" href="#">
+                <i class="fa fa-chevron-left"></i>
+              </li>
+              <li class="partner-item col-xs-2 list-group-item">
+                <i class="fab fa-500px partner-logo"></i>
+              </li>
+              <li class="partner-item col-xs-2 list-group-item">
+                <i class="fab fa-linux partner-logo"></i>
+              </li>
+              <li class="partner-item col-xs-2 list-group-item">
+                <i class="fab fa-skyatlas partner-logo"></i>
+              </li>
+              <li class="partner-item col-xs-2 list-group-item">
+                <i class="fa fa-paper-plane partner-logo"></i>
+              </li>
+              <li class="partner-item col-xs-2 list-group-item">
+                <i class="fa fa-leaf partner-logo"></i>
+              </li>
+              <li class="partner-right-btn col-xs-1 list-group-item" href="#">
+                <i class="fa fa-chevron-right"></i>
+              </li>
             </ul>
-       </section>
+          </section>
         </div>
-       <!-- End of partners section -->
+        <!-- End of partners section -->
 
-       <!-- Course tab section -->
-       <h1 class="course-section-head">Hundreds of online courses that scaled many careers worldwide</h1>
-       <section class="tab">
-            <div class="tab-nav">
-                <ul class="tab-nav-list" >
-                    <li class="tab-nav-item active" data-id="Blockchain">
-                        Blockchain
-                        <div class="tab-indicator"></div>
-                    </li>
-                    <li class="tab-nav-item" data-id="Business">
-                        Business
-                        <div class="tab-indicator"></div>
-                    </li>
-                    <li class="tab-nav-item" data-id="Coding-Programming">
-                        Coding & Programming
-                        <div class="tab-indicator"></div>
-                    </li>
-                    <li class="tab-nav-item" data-id="Data-Sceince">
-                        Data Sceince
-                        <div class="tab-indicator"></div>
-                    </li>
-                    <li class="tab-nav-item" data-id="Design">
-                        Design
-                        <div class="tab-indicator"></div>
-                    </li>
-                    <li class="tab-nav-item" data-id="IT-Security-Software">
-                        IT Security & Software
-                        <div class="tab-indicator"></div>
-                    </li>
-                    <li class="tab-nav-item" data-id="Marketing">
-                        Marketing
-                        <div class="tab-indicator"></div>
-                    </li>
-                    <li class="tab-nav-item" data-id="Personal-Development">
-                        Personal Development
-                        <div class="tab-indicator"></div>
-                    </li>
-                </ul>
-                <!-- <div class="tab-indicator"></div> -->
-            </div>
-            <!-- tab content -->
-            <div class="courses">
-                <!-- Block Chain courses -->
-                <ul class="course-list active" data-id="Blockchain">
-                    <li class=" course-item current-course-item">
-                        <div class="course-content">
-                            <a href="#">
-                                <img src="./images/clement-h-95YRwf6CNw8-unsplash.jpg" alt="" class="course-pic">
-                                <div class="overlay">
-                                    <h1>HTML & CSS</h1>
-                                    <p>FOR BEGINNERS</p>
-                                </div>
-                            </a>
-                            <h6>John Doe</h6>
-                            <a href="#">
-                                <h3 class="course-title">The complete HTML & CSS lesson from Beginner to advanced</h3>
-                            </a>
-                            <p class="about-course">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, placeat? Unde ducimus non dicta dolores facere vel reiciendis! Modi, rerum...<u>more</u></p>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half"></i>
-                        </div>
-                        <a href="#" class="price-btn">
-                            <p>$120</p><del>$240</del> 
-                            <p class="deduction">-45%</p>
-                        </a>
-                    </li>
-                    <li class="course-item">
-                        <div class="course-content">
-                            <a href="#">
-                                <img src="./images/clement-h-95YRwf6CNw8-unsplash.jpg" alt="" class="course-pic">
-                                <div class="overlay">
-                                    <h1>HTML & CSS</h1>
-                                    <p>FOR BEGINNERS</p>
-                                </div>
-                            </a>
-                            <h6>John Doe</h6>
-                            <a href="#">
-                                <h3 class="course-title">The complete HTML & CSS lesson from Beginner to advanced</h3>
-                            </a>
-                            <p class="about-course">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, placeat? Unde ducimus non dicta dolores facere vel reiciendis! Modi, rerum...<u>more</u></p>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half"></i>
-                        </div>
-                        <a href="#" class="price-btn">
-                            <p>$120</p><del>$240</del> 
-                            <p class="deduction">-45%</p>
-                        </a>
-                    </li>
-                    <li class="course-item">
-                        <div class="course-content">
-                            <a href="#">
-                                <img src="./images/clement-h-95YRwf6CNw8-unsplash.jpg" alt="" class="course-pic">
-                                <div class="overlay">
-                                    <h1>HTML & CSS</h1>
-                                    <p>FOR BEGINNERS</p>
-                                </div>
-                            </a>
-                            <h6>John Doe</h6>
-                            <a href="#">
-                                <h3 class="course-title">The complete HTML & CSS lesson from Beginner to advanced</h3>
-                            </a>
-                            <p class="about-course">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, placeat? Unde ducimus non dicta dolores facere vel reiciendis! Modi, rerum...<u>more</u></p>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half"></i>
-                        </div>
-                        <a href="#" class="price-btn">
-                            <p>$120</p><del>$240</del> 
-                            <p class="deduction">-45%</p>
-                        </a>
-                    </li>
-                    <li class="course-item">
-                        <div class="course-content">
-                            <a href="#">
-                                <img src="./images/clement-h-95YRwf6CNw8-unsplash.jpg" alt="" class="course-pic">
-                                <div class="overlay">
-                                    <h1>HTML & CSS</h1>
-                                    <p>FOR BEGINNERS</p>
-                                </div>
-                            </a>
-                            <h6>John Doe</h6>
-                            <a href="#">
-                                <h3 class="course-title">The complete HTML & CSS lesson from Beginner to advanced</h3>
-                            </a>
-                            <p class="about-course">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, placeat? Unde ducimus non dicta dolores facere vel reiciendis! Modi, rerum...<u>more</u></p>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half"></i>
-                        </div>
-                        <a href="#" class="price-btn">
-                            <p>$120</p><del>$240</del> 
-                            <p class="deduction">-45%</p>
-                        </a>
-                    </li>
-                </ul>
-                <!-- End of block chain -->
+        <!-- Course tab section -->
+        <h1 class="course-section-head">
+          Hundreds of online courses that scaled many careers worldwide
+        </h1>
+        <section class="tab">
+          <div class="tab-nav">
+            <ul class="tab-nav-list">
+              <li class="tab-nav-item active" data-id="Blockchain">
+                Blockchain
+                <div class="tab-indicator"></div>
+              </li>
+              <li class="tab-nav-item" data-id="Business">
+                Business
+                <div class="tab-indicator"></div>
+              </li>
+              <li class="tab-nav-item" data-id="Coding-Programming">
+                Coding & Programming
+                <div class="tab-indicator"></div>
+              </li>
+              <li class="tab-nav-item" data-id="Data-Sceince">
+                Data Sceince
+                <div class="tab-indicator"></div>
+              </li>
+              <li class="tab-nav-item" data-id="Design">
+                Design
+                <div class="tab-indicator"></div>
+              </li>
+              <li class="tab-nav-item" data-id="IT-Security-Software">
+                IT Security & Software
+                <div class="tab-indicator"></div>
+              </li>
+              <li class="tab-nav-item" data-id="Marketing">
+                Marketing
+                <div class="tab-indicator"></div>
+              </li>
+              <li class="tab-nav-item" data-id="Personal-Development">
+                Personal Development
+                <div class="tab-indicator"></div>
+              </li>
+            </ul>
+            <!-- <div class="tab-indicator"></div> -->
+          </div>
+          <!-- tab content -->
+          <div class="courses">
+            <!-- Block Chain courses -->
+            <ul class="course-list active" data-id="Blockchain">
+              <li class="course-item current-course-item">
+                <div class="course-content">
+                  <a href="#">
+                    <img
+                      src="./images/clement-h-95YRwf6CNw8-unsplash.jpg"
+                      alt=""
+                      class="course-pic"
+                    />
+                    <div class="overlay">
+                      <h1>HTML & CSS</h1>
+                      <p>FOR BEGINNERS</p>
+                    </div>
+                  </a>
+                  <h6>John Doe</h6>
+                  <a href="#">
+                    <h3 class="course-title">
+                      The complete HTML & CSS lesson from Beginner to advanced
+                    </h3>
+                  </a>
+                  <p class="about-course">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas, placeat? Unde ducimus non dicta dolores facere vel
+                    reiciendis! Modi, rerum...<u>more</u>
+                  </p>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="price-btn">
+                  <p>$120</p>
+                  <del>$240</del>
+                  <p class="deduction">-45%</p>
+                </a>
+              </li>
+              <li class="course-item">
+                <div class="course-content">
+                  <a href="#">
+                    <img
+                      src="./images/clement-h-95YRwf6CNw8-unsplash.jpg"
+                      alt=""
+                      class="course-pic"
+                    />
+                    <div class="overlay">
+                      <h1>HTML & CSS</h1>
+                      <p>FOR BEGINNERS</p>
+                    </div>
+                  </a>
+                  <h6>John Doe</h6>
+                  <a href="#">
+                    <h3 class="course-title">
+                      The complete HTML & CSS lesson from Beginner to advanced
+                    </h3>
+                  </a>
+                  <p class="about-course">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas, placeat? Unde ducimus non dicta dolores facere vel
+                    reiciendis! Modi, rerum...<u>more</u>
+                  </p>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="price-btn">
+                  <p>$120</p>
+                  <del>$240</del>
+                  <p class="deduction">-45%</p>
+                </a>
+              </li>
+              <li class="course-item">
+                <div class="course-content">
+                  <a href="#">
+                    <img
+                      src="./images/clement-h-95YRwf6CNw8-unsplash.jpg"
+                      alt=""
+                      class="course-pic"
+                    />
+                    <div class="overlay">
+                      <h1>HTML & CSS</h1>
+                      <p>FOR BEGINNERS</p>
+                    </div>
+                  </a>
+                  <h6>John Doe</h6>
+                  <a href="#">
+                    <h3 class="course-title">
+                      The complete HTML & CSS lesson from Beginner to advanced
+                    </h3>
+                  </a>
+                  <p class="about-course">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas, placeat? Unde ducimus non dicta dolores facere vel
+                    reiciendis! Modi, rerum...<u>more</u>
+                  </p>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="price-btn">
+                  <p>$120</p>
+                  <del>$240</del>
+                  <p class="deduction">-45%</p>
+                </a>
+              </li>
+              <li class="course-item">
+                <div class="course-content">
+                  <a href="#">
+                    <img
+                      src="./images/clement-h-95YRwf6CNw8-unsplash.jpg"
+                      alt=""
+                      class="course-pic"
+                    />
+                    <div class="overlay">
+                      <h1>HTML & CSS</h1>
+                      <p>FOR BEGINNERS</p>
+                    </div>
+                  </a>
+                  <h6>John Doe</h6>
+                  <a href="#">
+                    <h3 class="course-title">
+                      The complete HTML & CSS lesson from Beginner to advanced
+                    </h3>
+                  </a>
+                  <p class="about-course">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas, placeat? Unde ducimus non dicta dolores facere vel
+                    reiciendis! Modi, rerum...<u>more</u>
+                  </p>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="price-btn">
+                  <p>$120</p>
+                  <del>$240</del>
+                  <p class="deduction">-45%</p>
+                </a>
+              </li>
+            </ul>
+            <!-- End of block chain -->
+          </div>
+        </section>
+        <!-- End of course section -->
 
-                
-            </div>
-       </section>
-       <!-- End of course section -->
+        <!-- card section -->
+        <section class="card">
+          <div class="left">
+            <img src="./images/Rectangle 13.png" alt="" class="grey-area" />
+            <img src="./images/she.png" alt="" class="girl" />
+          </div>
+          <div class="card-text-content">
+            <h1>Find your calling and explore our city!</h1>
+            <p>
+              Our free career quiz matches your personality wiht the best-suited
+              jobs abd invites you to a gamified city of as one of our
+              characters! Join the district of learners with simila superpowers,
+              get a personalized list of courses, and enjoy your first course
+              for free!
+            </p>
+            <div class="find-btn"><a href="#">Find out now</a></div>
+          </div>
+        </section>
+        <!-- End of cart section -->
 
-       <!-- card section -->
-       <section class="card">
-            <div class="left">
-                <img src="./images/Rectangle 13.png" alt="" class="grey-area">
-                <img src="./images/she.png" alt="" class="girl"> 
-            </div>
-            <div class="card-text-content">
-                <h1>Find your calling and explore our city!</h1>
-                <p>Our free career quiz matches your personality wiht the best-suited jobs abd invites you to a gamified city of as one of our characters! Join the district of learners with simila superpowers, get a personalized list of courses, and enjoy your first course for free!</p>
-                <div class="find-btn"><a href="#">Find out now</a></div>
-            </div>
-       </section>
-       <!-- End of cart section -->
+        <!-- learn section -->
+        <section class="learn">
+          <div class="learn-info">
+            <h1>Learning paths to reach your career objectives</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi,
+              maxime odit! Sequi facilis magnam explicabo, eligendi es/
+            </p>
+          </div>
 
-       <!-- learn section -->
-       <section class="learn">
-           <div class="learn-info">
-               <h1>Learning paths to reach your career objectives</h1>
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, maxime odit! Sequi facilis magnam explicabo, eligendi es/
-           </div>
-           <div class="learn-grid">
-               <a href="#" class="learn-item">
-                   <img src="./images/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg" alt="" srcset="">
-                   <div class="learn-overlay">
-                        <h1>Learn</h1>
-                        <h2>Game Development</h2>
-                   </div>
-               </a>
-               <a href="#" class="learn-item">
-                <img src="./images/safar-safarov-MSN8TFhJ0is-unsplash.jpg" alt="" srcset="">
-                <div class="learn-overlay">
-                    <h1>Learn</h1>
-                    <h2>Python Development</h2>
-               </div>
-                </a>
-                <a href="#" class="learn-item">
-                    <img src="./images/radek-grzybowski-eBRTYyjwpRY-unsplash.jpg" alt="" srcset="">
-                    <div class="learn-overlay">
-                        <h1>Learn</h1>
-                        <h2>Web Development</h2>
-                   </div>
-                </a>
-                <a href="#" class="learn-item">
-                    <img src="./images/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="" srcset="">
-                    <div class="learn-overlay">
-                        <h1>Learn</h1>
-                        <h2>Data Science</h2>
-                   </div>
-                </a>
-                <a href="#" class="learn-item">
-                    <img src="./images/domenico-loia-EhTcC9sYXsw-unsplash.jpg" alt="" srcset="">
-                    <div class="learn-overlay">
-                        <h1>Learn</h1>
-                        <h2>Game Development</h2>
-                   </div>
-                </a>
-                <a href="#" class="learn-item">
-                    <img src="./images/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg" alt="" srcset="">
-                    <div class="learn-overlay">
-                        <h1>Learn</h1>
-                        <h2>Game Development</h2>
-                   </div>
-                </a>
-                <a href="#" class="learn-item">
-                    <img src="./images/oskar-yildiz-cOkpTiJMGzA-unsplash.jpg" alt="" srcset="">
-                    <div class="learn-overlay">
-                        <h1>Learn</h1>
-                        <h2>Game Development</h2>
-                   </div>
-                </a>
-                <a href="#" class="learn-item">
-                    <img src="./images/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="" srcset="">
-                    <div class="learn-overlay">
-                        <h1>Learn</h1>
-                        <h2>Game Development</h2>
-                   </div>
-                </a>
-            </div>
-            <div class="learn-btn"><a href="#">Find out now</a></div>
-       </section>
-       <!-- End of learn section -->
-    </div>
-    <!-- End of container -->
+          <div class="learn-grid">
+            <a href="#" class="learn-item">
+              <img
+                src="./images/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg"
+                alt=""
+                srcset=""
+              />
+              <div class="learn-overlay">
+                <h1>Learn</h1>
+                <h2>Game Development</h2>
+              </div>
+            </a>
+            <a href="#" class="learn-item">
+              <img
+                src="./images/safar-safarov-MSN8TFhJ0is-unsplash.jpg"
+                alt=""
+                srcset=""
+              />
+              <div class="learn-overlay">
+                <h1>Learn</h1>
+                <h2>Python Development</h2>
+              </div>
+            </a>
+            <a href="#" class="learn-item">
+              <img
+                src="./images/radek-grzybowski-eBRTYyjwpRY-unsplash.jpg"
+                alt=""
+                srcset=""
+              />
+              <div class="learn-overlay">
+                <h1>Learn</h1>
+                <h2>Web Development</h2>
+              </div>
+            </a>
+            <a href="#" class="learn-item">
+              <img
+                src="./images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+                alt=""
+                srcset=""
+              />
+              <div class="learn-overlay">
+                <h1>Learn</h1>
+                <h2>Data Science</h2>
+              </div>
+            </a>
+            <a href="#" class="learn-item">
+              <img
+                src="./images/domenico-loia-EhTcC9sYXsw-unsplash.jpg"
+                alt=""
+                srcset=""
+              />
+              <div class="learn-overlay">
+                <h1>Learn</h1>
+                <h2>Game Development</h2>
+              </div>
+            </a>
+            <a href="#" class="learn-item">
+              <img
+                src="./images/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg"
+                alt=""
+                srcset=""
+              />
+              <div class="learn-overlay">
+                <h1>Learn</h1>
+                <h2>Game Development</h2>
+              </div>
+            </a>
+            <a href="#" class="learn-item">
+              <img
+                src="./images/oskar-yildiz-cOkpTiJMGzA-unsplash.jpg"
+                alt=""
+                srcset=""
+              />
+              <div class="learn-overlay">
+                <h1>Learn</h1>
+                <h2>Game Development</h2>
+              </div>
+            </a>
+            <a href="#" class="learn-item">
+              <img
+                src="./images/marvin-meyer-SYTO3xs06fU-unsplash.jpg"
+                alt=""
+                srcset=""
+              />
+              <div class="learn-overlay">
+                <h1>Learn</h1>
+                <h2>Game Development</h2>
+              </div>
+            </a>
+          </div>
+          <div class="learn-btn"><a href="#">Find out now</a></div>
+        </section>
+        <!-- End of learn section -->
+      </div>
+      <!-- End of container -->
 
-    <!-- Student communtiy feedback section -->
-    <section class="feedback">
+      <!-- Student communtiy feedback section -->
+      <section class="feedback">
         <h1>Student community feedback</h1>
         <div class="feedback-area">
-            <button class="prev-btn"><i class="fa fa-chevron-left chevron"></i></button>
-            <ul class="feedback-list">
-                <li class="feedback-item-current feedback-item">
-                    <div class="student">
-                        <img src="./images/icons8-team-FcLyt7lW5wg-unsplash.jpg"alt="" srcset="">
-                        <div class="student-info">
-                            <div class="line"></div>
-                            <h1>Joy Kushyloye</h1>
-                            <div class="student-socials">
-                                <i class="fab fa-facebook"></i>
-                                <i class="fab fa-instagram"></i>
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-linkedin"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="student-feedback">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore adipisci magnam, ad odio quae .</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cumque consectetur quos.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, consequuntur!</p>
-                    </div>
-                </li>
-                <li class="feedback-item">
-                    <div class="student">
-                        <img src="./images/icons8-team-FcLyt7lW5wg-unsplash.jpg"alt="" srcset="">
-                        <div class="student-info">
-                            <div class="line"></div>
-                            <h1>Jane Kushyloye</h1>
-                            <div class="student-socials">
-                                <i class="fab fa-facebook"></i>
-                                <i class="fab fa-instagram"></i>
-                                <i class="fab fa-twitter"></i>
-                                <i class="fab fa-linkedin"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="student-feedback">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore adipisci magnam, ad odio quae .</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cumque consectetur quos.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, consequuntur!</p>
-                    </div>
-                </li>
-            </ul>
-            <button class="next-btn"><i class="fa fa-chevron-right chevron"></i></button>
+          <button class="prev-btn">
+            <i class="fa fa-chevron-left chevron"></i>
+          </button>
+          <ul class="feedback-list">
+            <li class="feedback-item-current feedback-item">
+              <div class="student">
+                <img
+                  src="./images/icons8-team-FcLyt7lW5wg-unsplash.jpg"
+                  alt=""
+                  srcset=""
+                />
+                <div class="student-info">
+                  <div class="line"></div>
+                  <h1>Joy Kushyloye</h1>
+                  <div class="student-socials">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="student-feedback">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Vitae tempore adipisci magnam, ad odio quae .
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium cumque consectetur quos.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+                  consequuntur!
+                </p>
+              </div>
+            </li>
+            <li class="feedback-item">
+              <div class="student">
+                <img
+                  src="./images/icons8-team-FcLyt7lW5wg-unsplash.jpg"
+                  alt=""
+                  srcset=""
+                />
+                <div class="student-info">
+                  <div class="line"></div>
+                  <h1>Jane Kushyloye</h1>
+                  <div class="student-socials">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="student-feedback">
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Vitae tempore adipisci magnam, ad odio quae .
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium cumque consectetur quos.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+                  consequuntur!
+                </p>
+              </div>
+            </li>
+          </ul>
+          <button class="next-btn">
+            <i class="fa fa-chevron-right chevron"></i>
+          </button>
         </div>
         <div class="feedback-indicator">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
         </div>
-    </section>
-    <!-- END of student community feedback section -->
+      </section>
+      <!-- END of student community feedback section -->
 
-    <!-- Invest in yourself -->
-    <section class="invest">
+      <!-- Invest in yourself -->
+      <section class="invest">
         <div class="invest-left">
-            <img src="./images/Ellipse 1 (1).png" alt="" srcset="" class="ellipse-one">
-            <img src="./images/Ellipse 2 (1).png" alt="" srcset="" class="ellipse-two">
+          <img
+            src="./images/Ellipse 1 (1).png"
+            alt=""
+            srcset=""
+            class="ellipse-one"
+          />
+          <img
+            src="./images/Ellipse 2 (1).png"
+            alt=""
+            srcset=""
+            class="ellipse-two"
+          />
         </div>
         <div class="center">
-            <h1>It's time to start investing in yourself</h1>
-            <p>Because learning to code might be the easiest way to change your career</p>
-            <a href="#" class="start-btn">START NOW</a>
+          <h1>It's time to start investing in yourself</h1>
+          <p>
+            Because learning to code might be the easiest way to change your
+            career
+          </p>
+          <a href="#" class="start-btn">START NOW</a>
         </div>
         <div class="invest-right">
-            <div class="circle-one"></div>
-            <div class="circle-two"></div>
+          <div class="circle-one"></div>
+          <div class="circle-two"></div>
         </div>
-    </section>  
-    <!-- End of inivest in yourself -->
+      </section>
+      <!-- End of inivest in yourself -->
 
-    <!-- Footer -->
-    <footer>
+      <!-- Footer -->
+      <footer>
         <div class="vision">
-            <a href="#" class="vision-logo">ADX</a>
-            <p>Our vision is to be rewarded for creating lerning products that provoke authentic, comprehensive, continous, creative and challenging learning experiences. We want future learning, now.</p>
-            <h2>&copy; 2020 edx</h2>
-            <div class="socials">
-                <a href="#" class="socials-link"><i class="fab fa-facebook"></i></a>
-                <a href="#" class="socials-link"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="socials-link"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="socials-link"><i class="fab fa-linkedin"></i></a>
-            </div>
+          <a href="#" class="vision-logo">ADX</a>
+          <p>
+            Our vision is to be rewarded for creating lerning products that
+            provoke authentic, comprehensive, continous, creative and
+            challenging learning experiences. We want future learning, now.
+          </p>
+          <h2>&copy; 2020 edx</h2>
+          <div class="socials">
+            <a href="#" class="socials-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="socials-link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="socials-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="socials-link"><i class="fab fa-linkedin"></i></a>
+          </div>
         </div>
         <div class="about">
-            <h1>adX</h1>
-            <ul class="about-list">
-                <a href="#" class="about-link">About</a>
-                <a href="#" class="about-link">edX for BUsiness</a>
-                <a href="#" class="about-link">Affiliates</a>
-                <a href="#" class="about-link">Open edX</a>
-                <a href="#" class="about-link">Careers</a>
-                <a href="#" class="about-link">News</a>
-            </ul>
+          <h1>adX</h1>
+          <ul class="about-list">
+            <a href="#" class="about-link">About</a>
+            <a href="#" class="about-link">edX for BUsiness</a>
+            <a href="#" class="about-link">Affiliates</a>
+            <a href="#" class="about-link">Open edX</a>
+            <a href="#" class="about-link">Careers</a>
+            <a href="#" class="about-link">News</a>
+          </ul>
         </div>
         <div class="legal">
-            <h1>Legal</h1>
-            <ul class="about-list">
-                <a href="#" class="about-link">Terms of service & Honor code</a>
-                <a href="#" class="about-link">Privacy policy</a>
-                <a href="#" class="about-link">Accessibility Policy</a>
-                <a href="#" class="about-link">Trademark policy</a>
-                <a href="#" class="about-link">Sitemap</a>
-            </ul>
+          <h1>Legal</h1>
+          <ul class="about-list">
+            <a href="#" class="about-link">Terms of service & Honor code</a>
+            <a href="#" class="about-link">Privacy policy</a>
+            <a href="#" class="about-link">Accessibility Policy</a>
+            <a href="#" class="about-link">Trademark policy</a>
+            <a href="#" class="about-link">Sitemap</a>
+          </ul>
         </div>
         <div class="content">
-            <h1>Content</h1>
-            <ul class="about-list">
-                <a href="#" class="about-link">Blog</a>
-                <a href="#" class="about-link">Contact Us</a>
-                <a href="#" class="about-link">HElp Center</a>
-                <a href="#" class="about-link">Media Kit</a>
-                <a href="#" class="about-link">Donate</a>
-            </ul>
+          <h1>Content</h1>
+          <ul class="about-list">
+            <a href="#" class="about-link">Blog</a>
+            <a href="#" class="about-link">Contact Us</a>
+            <a href="#" class="about-link">HElp Center</a>
+            <a href="#" class="about-link">Media Kit</a>
+            <a href="#" class="about-link">Donate</a>
+          </ul>
         </div>
-    </footer>
-    <!-- End of footer -->
+      </footer>
+      <!-- End of footer -->
     </main>
-   <script src="./app.js"></script>
+    <script src="./app.js"></script>
     <script src="./js/all.min.js"></script>
-</body>
+  </body>
 </html>
