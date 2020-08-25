@@ -216,7 +216,8 @@ nav {
 .sign-up {
   display: flex;
   justify-content: center;
-  background: var(--primary-color);
+  /* background: var(--primary-color); */
+  background: red;
   width: 150px;
   height: 30px !important;
   padding-left: 2.5em;
